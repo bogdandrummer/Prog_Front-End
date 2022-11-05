@@ -1,0 +1,73 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.main__form {
+	display: flex;
+	flex-direction: column;
+	width: 800px;
+	height: 400px;
+	margin: 20px auto;
+	padding: 15px;
+	font-size: 20px;
+	border: 1px solid rgb(5, 92, 255);
+}
+.main__item {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.item__name {
+	width: 20%;
+}
+.form__item {
+	height: 25px;
+	border: 1px solid rgb(5, 92, 255);
+}
+.msg {
+	border: 1px solid rgb(5, 92, 255);
+	width: 20%;
+}
+.msg {
+}
+.t_area {
+	border: 1px solid rgb(5, 92, 255);
+}
+#txt {
+	align-items: start;
+}
+#txt span {
+	color: red;
+}
+#spam {
+	align-items: start;
+}
+#spam span {
+	color: red;
+}
+#spam > .form__item {
+	width: 15%;
+}
+.captcha > img {
+	width: 200px;
+	margin: 0 15px;
+}
+#cpt {
+	align-items: start;
+}
+#cpt > a {
+	color: #000;
+	text-transform: lowercase;
+	margin-left: 10px;
+}
+.captcha > a {
+	color: red;
+	font-size: 25px;
+}
+.button {
+	width: 150px;
+	height: 30px;
+	border-radius: 4px;
+	font-size: 16px;
+	font-weight: 600;
+}
