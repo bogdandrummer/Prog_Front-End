@@ -24,7 +24,7 @@
 		</div>
 		<!--Тема сообщения-->
 		<div class="main__item">
-			<div class="item__name">Тема сообщения</div>
+			<div class="item__name" id="t__msg">Тема сообщения</div>
 			<select name="message" id="" class="msg">
 				<option value="t1">Тема 1</option>
 				<option value="t2">Тема 2</option>
@@ -37,9 +37,9 @@
 			<textarea name="txt" id="" cols="70" rows="10" class="t_area"></textarea>
 		</div>
 		<!--Защита от спама-->
-		<div class="main__item" id="spam">
+		<div class="main__item" id="spam__row">
 			<div class="item__name">Защита от спама <span>*</span></div>
-			<input type="text" class="form__item" name="email">
+			<input type="text" class="form__item" name="email" id="spam">
 			<!--Капча-->
 			<div class="main__item" id="cpt">
 				<div class="captcha"><img src="img/avoid-captcha.jpg" alt="captcha"></div>

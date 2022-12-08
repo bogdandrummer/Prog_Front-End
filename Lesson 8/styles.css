@@ -20,6 +20,23 @@
 	margin: 70px 0 0 0;
 	gap: 70px;
 }
+@media (max-width: 997px) {
+	.content {
+		width: 100%;
+		max-width: none;
+	}
+	.filials {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: repeat(3, 1fr);
+		margin: 70px 20px;
+	}
+}
+@media (max-width: 667px) {
+	.filials {
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(6, 1fr);
+	}
+}
 .fil__item {
 	display: flex;
 	align-items: center;

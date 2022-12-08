@@ -30,6 +30,11 @@ h1 {
 	align-items: center;
 	border-radius: 5px;
 }
+@media (max-width: 667px) {
+	.baner {
+		height: 400px;
+	}
+}
 .baner__title {
 	display: block;
 	width: 100%;
@@ -54,6 +59,12 @@ h1 {
 	font-size: 17px;
 	text-transform: uppercase;
 	font-weight: bold;
+}
+@media (max-width: 667px) {
+	.banner__button {
+		margin-bottom: 15px;
+		min-height: 60px;
+	}
 }
 .dotts {
 	display: flex;
@@ -90,4 +101,17 @@ h1 {
 	background-color: rgba(200, 200, 200, 0.1);
 	border-radius: 5px;
 	font-size: 30px;
+}
+@media (max-width: 667px) {
+	.dotts {
+		right: 0;
+		left: 0;
+		margin: auto;
+	}
+	.arrows {
+		bottom: 60px;
+		right: 0;
+		left: 0;
+		margin: auto;
+	}
 }
